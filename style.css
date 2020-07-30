@@ -584,7 +584,7 @@ margin-right: 30px;
 }
 
 
-@media screen and (max-width:750px){
+@media screen and (max-width:815px) {
     body{
         overflow-x: hidden;
     }
@@ -706,6 +706,24 @@ margin-right: 30px;
     letter-spacing: 4px;
     font-weight: 550;
  }
+
+
+ footer{
+    bottom:0px;
+    width:100%;
+    background:black;
+    color: rgb(191, 180, 180);
+    text-align: center;
+    justify-content: center;
+  
+}
+
+.main-content{
+    display: grid;
+    grid-row: 1fr 1fr 1fr;
+}
+
+
 
  
 
