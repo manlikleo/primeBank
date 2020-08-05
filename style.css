@@ -52,11 +52,12 @@ nav{
     color: white;
 }
  
-button {
+.nav_links li button  {
     position: relative;
     padding:10px;
     border: none;
     margin:10px;
+    color: rgba(21, 23, 22, 0.4);
     border-radius: 0.12em;
     box-sizing: border-box;
     text-decoration: none ;
@@ -68,6 +69,10 @@ button {
                 transform 150ms ease;
    --webkit-appearance: none;
    --moz-appearance: none;
+}
+
+.nav_links li button a {
+    color:black;
 }
 
 button:hover,
