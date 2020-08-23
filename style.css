@@ -26,6 +26,14 @@ nav{
     font-size: 24px;
 }
 
+.logo h4 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    
+
+}
+
 .nav_links {
     position: sticky;
     display: flex;
@@ -60,9 +68,7 @@ nav{
     color: rgba(21, 23, 22, 0.4);
     border-radius: 0.12em;
     box-sizing: border-box;
-    text-decoration: none ;
     font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
     cursor: pointer;
     text-align: center;
     transition: 250ms ease-in-out,
@@ -73,6 +79,9 @@ nav{
 
 .nav_links li button a {
     color:black;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none ;
 }
 
 button:hover,
@@ -133,10 +142,12 @@ button:active {
    .hero_btn {
       padding: 10px;
       width: 30%;
+      border: none;
   }
   
   .hero_btn a{ 
       text-decoration: none;
+      border:none ;
       color: black;
   }
 
