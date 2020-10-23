@@ -176,6 +176,7 @@ button:active {
     width:20%;
     padding:10px;
     background: #F3F7F9;
+    color:#14274e;
     box-shadow: 0 5px 4px rgba(0,0,0,.1);
     margin:0px;
     box-sizing: border-box;
@@ -192,14 +193,20 @@ button:active {
 .content h3{
     font-size: 14px;
     font-weight: 400;
-    color: green;
+    color: #1a1a1a;
     margin-top: 20px;
 }
 
 
 .container .box:hover{
-    background-color: #F5E358;
+    background-color:lightblue ;
+    color: #ffffff;
 }
+
+.container h3:hover{
+    color: #FFFFFF;
+}
+
 
   
 .service{
@@ -243,7 +250,7 @@ button:active {
 position: relative;
 width: 300px;
 height: 350px;
-background-color: lightgreen;
+background-color: #14274e;
 box-shadow: 0 30px 30px rgba(0,0,0,.5);
 
 }
@@ -377,8 +384,8 @@ height: 100%;
 
 .border{
     width: 160px;
-    height: 5px;
-    background: #6ab04c;
+    height: 8px;
+    background: #14274e;
     margin:26px auto ;
 }
 
@@ -409,18 +416,18 @@ height: 100%;
 
 .testimonail h3{
     font-size:20px;
-    font-weight:400;
+    font-weight:800;
     margin: 10px 0 ;
 }
 
 .testimonail h4{
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
 .contact_section {
-background-image: linear-gradient(0deg, rgba(105, 191, 62, 0.8), rgba(36, 120, 48, 0.9)), url('./email_background.jpg');
+background-image: linear-gradient(0deg, rgb(92, 115, 161,0.7), rgba(92, 115, 161, 0.9)), url('./email_background.jpg');
 background-repeat: no-repeat;
 background-position: center;
 background-size:cover;
@@ -495,7 +502,7 @@ text-align: center;
 }
 .contact_section .button:hover {
 
-    background:green;
+    background:black;
     border-radius: 8px;
     padding:12px 40px;
     color:white;
@@ -553,18 +560,18 @@ text-align:left;
 
     height:40px ;
     width: 40px;
-    background: #1a1a1a;
+    background: white;
     line-height: 40px;
     text-align: center;
     font-size: 18px;
     border-radius: 5px;
     text-decoration: none;
-    color: yellowgreen;
+    color: #14274e;
     transition: 0.3s;
 }
 
 .left .content .social a span:hover{
-    background: yellowgreen;
+    background: #14274e;
     color:white;
 }
 
