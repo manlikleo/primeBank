@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body{
@@ -123,36 +124,62 @@ button:active {
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
     position:relative;
-  }
-  
-  .hero_section{
+}
+
+.team-section{
+      height: 30vh;
+      align-items: center;
+}
+
+.hero_section{
   position: absolute;
   left: 10%;
    display: flex;
    flex-direction: column;
-  
-  }
-   .hero_section h2{
+}
+
+.team-header{
+    position: unset;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+.hero_section h2{
        font-size: 50px;
        font-family:'Poppins', sans-serif;
        font-weight:550;
        margin-bottom: 15px;
        line-height: 60px;
        color: white;   
-   }
-   .hero_btn {
+}
+
+.team-header h2{
+       font-size: 80px;
+       margin-bottom: 30px;
+}
+
+.team-header p{
+       font-size: 24px;
+       text-align: center;
+}
+
+.hero_btn {
       padding: 10px;
       width: 30%;
       border: none;
-  }
+}
   
-  .hero_btn a{ 
+.hero_btn a{ 
       text-decoration: none;
       border:none ;
       color: black;
-  }
+}
 
 .container{
     display:flex;
@@ -182,6 +209,51 @@ button:active {
     box-sizing: border-box;
     overflow: hidden;
 }
+
+/* executives section start here  */
+
+.executives{
+    padding:32px;
+    height:140vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: yellow;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.step{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.executive{
+    height: 50vh;
+    width: 45%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+
+
+
+
+/* executives section ends here  */
+
+
+
+
 
 
 .content {
@@ -636,8 +708,23 @@ margin-right: 30px;
         letter-spacing: 2px;
         font-size: 14px ;
         font-weight: bold;
-    
     }
+
+
+    .team-header h2{
+        font-size: 3rem;
+ }
+ 
+ .team-header p{
+        font-size: 1rem;
+        text-align: center;
+ }
+
+
+
+
+
+
     .container{
         display:flex;
         flex-wrap: wrap;
