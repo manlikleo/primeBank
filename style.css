@@ -337,7 +337,10 @@ height: 100%;
     padding:80px;
 }
 
-
+.cotent_section{
+    height: 50%;
+    margin-top: 20px;
+}
 
 .cotent_section h2 {
     text-align: left;
@@ -356,10 +359,10 @@ height: 100%;
 }
 
 
+
 .creative_section img {
         max-width: 80%;
         width: 100%;
-        height: auto;
         padding: 0;
         margin: 0;
         border: none;
@@ -371,7 +374,6 @@ height: 100%;
     background-color: #f1f1f1;
     color:#434343;
    text-align: center;
-
 }
 
 .inner{
@@ -728,16 +730,7 @@ margin-right: 30px;
         text-align: center;
     }
     
-
-
-
-    .col{
-        flex:100%;
-        max-width: 80%;
-
-    }
-
-
+    
     .cotent_section h2{
         font-size: 24px;
 
@@ -758,6 +751,13 @@ margin-right: 30px;
         padding: 0;
         margin: 0;
         border: none;
+    }
+
+
+    .col{
+        flex:100%;
+        max-width: 80%;
+
     }
      
 
