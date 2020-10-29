@@ -752,6 +752,7 @@ margin-right: 30px;
 
 
     .creative_section img {
+        height: auto;
         max-width: 100vw;
         width: 100%;
         padding: 0;
