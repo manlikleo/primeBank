@@ -726,7 +726,7 @@ margin-right: 30px;
     }
 
     .cotent_section{
-        height: auto;
+        height: 40%;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
