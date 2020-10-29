@@ -726,11 +726,11 @@ margin-right: 30px;
     }
 
     .cotent_section{
-        height: 50%;
+        height: auto;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        margin-top: 20px;
+
         
     }
     
