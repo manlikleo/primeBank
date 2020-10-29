@@ -721,7 +721,7 @@ margin-right: 30px;
     .about_us{
         display:block;
         height: 80vh;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         margin: 0 auto;
         padding:20px;
