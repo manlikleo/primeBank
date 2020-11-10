@@ -220,6 +220,7 @@ button:active {
     align-items: center;
 }
 
+
 .step{
     height: 50vh;
     width: 100%;
@@ -229,10 +230,9 @@ button:active {
     align-items: center;
 }
 
-
 .executive{
     height: 50vh;
-    width: 45%;
+    width: 30%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -245,27 +245,27 @@ button:active {
 
 .lower-executive{
     height: 50vh;
-    width: 31%;
+    width: 24%;
 }
 
 .executive_pic{
-    height: 60%;
-    width: 60%;
+    height: 300px;
+    width: 300px;
     background:url(./1st_client.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
+.first_executive_pic{
+    background: url(./2nd_client.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 /* executives section ends here  */
-
-
-
-
-
-
 .content {
     font-size: 24px;
     font-weight: 400;
@@ -279,7 +279,6 @@ button:active {
     margin-top: 20px;
 }
 
-
 .container .box:hover{
     background-color:lightblue ;
     color: #ffffff;
@@ -289,8 +288,6 @@ button:active {
     color: #FFFFFF;
 }
 
-
-  
 .service{
     display: block;
     justify-content: center;
@@ -312,8 +309,6 @@ button:active {
     margin-top:150px;   
 }
 
-
-
 .offering_content_box{
     display: flex;
     justify-content: center;
@@ -328,6 +323,7 @@ button:active {
     justify-content: space-between;
 }
 
+
 .Offering_box{
 position: relative;
 width: 300px;
@@ -336,6 +332,7 @@ background-color: #14274e;
 box-shadow: 0 30px 30px rgba(0,0,0,.5);
 
 }
+
 
 .Offering_box .imgbx {
 position: absolute;
@@ -403,8 +400,6 @@ height: 100%;
     opacity: 1;
     transition-delay: 0.5s;
 }
-
-
 
 
 .about_us{
@@ -521,6 +516,7 @@ text-align: center;
     padding: 0 20px;
 }
 
+
 .contact_section h2{
    font-size: 36px;
    color:white !important;
@@ -529,8 +525,6 @@ text-align: center;
    letter-spacing: 4px;
    font-weight: 500;
 }
-
-
 
 .name , .email, .message  {
      background:none; 
@@ -555,10 +549,12 @@ text-align: center;
     width: 270px;
 }
 
+
 .email{
     float: right;
     width: 270px;
 }
+
 
 .message {
     min-width: 100%;
@@ -566,8 +562,8 @@ text-align: center;
 
 }
 
-.contact_section .button  {
 
+.contact_section .button  {
     background:none;
     color:white;
     border: 1px solid white;
@@ -579,6 +575,7 @@ text-align: center;
     text-decoration: none;
     cursor: pointer;
 }
+
 .contact_section .button:hover {
 
     background:black;
@@ -589,6 +586,7 @@ text-align: center;
     text-decoration:none;
 }
 
+
 footer{
     bottom:0px;
     width:100%;
@@ -596,6 +594,7 @@ footer{
     color: rgb(191, 180, 180);
   
 }
+
 
 .main-content{
     display: flex;
@@ -613,6 +612,7 @@ footer{
     padding: 60px 50px ;
 }
 
+
 .box h4 {
 
 font-size: 20px;
@@ -622,21 +622,24 @@ text-transform: uppercase;
 text-align:left;
 }
 
+
 .box .content{
    margin: 20px 0 0 0;
 }
+
 
 .left .content .social {
     margin: 20px 0 0 0 ; 
     text-align: left;   
 }
 
+
 .left .content .social a {
     padding: 0 2px;
 }
 
-.left .content .social a span {
 
+.left .content .social a span {
     height:40px ;
     width: 40px;
     background: white;
@@ -764,11 +767,27 @@ margin-right: 30px;
    .executive{
        height: 30vh;
        width: 80%;
-       justify-content: center;
+       justify-content:space-evenly;
+       align-items: center;
    }
 
+   .executive_pic{
+    height: 150px;
+    width: 150px;
+    background:url(./1st_client.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
   .executive h3{
-      font-size: 1rem;
+      font-size: 0.8rem;
+  }
+
+  .executive p {
+      font-size:0.7rem ;
   }
 
     .container{
